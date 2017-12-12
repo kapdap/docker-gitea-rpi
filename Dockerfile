@@ -5,7 +5,7 @@ EXPOSE 22 3000
 RUN [ "cross-build-start" ]
 
 ## GITEA RELEASE VERSION
-ENV VERSION 1.3.0-rc1
+ENV VERSION 1.3.0-rc2
 
 RUN apk --no-cache add \
     su-exec \
